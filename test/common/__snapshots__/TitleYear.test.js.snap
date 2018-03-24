@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TitleYear /> should render correctly 1`] = `
+<span>
+  title
+   
+  <small
+    className="text-muted"
+  >
+    (
+    year
+    )
+  </small>
+</span>
+`;

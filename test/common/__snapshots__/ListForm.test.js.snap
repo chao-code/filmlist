@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListForm /> should shallow the empty form 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="subjectInput"
+        >
+          Subject
+        </label>
+        <input
+          className="form-control"
+          id="subjectInput"
+          name="subject"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Required
+        </small>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="listedByInput"
+        >
+          Listed By
+        </label>
+        <input
+          className="form-control"
+          id="listedByInput"
+          name="listedBy"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Required
+        </small>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="passcodeInput"
+        >
+          Passcode
+        </label>
+        <input
+          className="form-control"
+          id="passcodeInput"
+          name="passcode"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Use Passcode to edit or delete this list
+        </small>
+      </div>
+    </div>
+    <div
+      className="col-md"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="descriptionInput"
+        >
+          Description
+        </label>
+        <textarea
+          className="form-control"
+          id="descriptionInput"
+          name="description"
+          onChange={[Function]}
+          rows="10"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row my-4"
+  >
+    <div
+      className="col col-md"
+    >
+      <div
+        className="input-group"
+      >
+        <div
+          className="input-group-prepend"
+        >
+          <div
+            className="input-group-text"
+          >
+            Add to List
+          </div>
+        </div>
+        <Connect(FilmSearch)
+          inputClass=""
+          onResultClick={[Function]}
+          placeholder="Enter Film Name..."
+          resultsContainerClass="film-results"
+        />
+      </div>
+    </div>
+    <div
+      className="col-5 col-md"
+    >
+      <Button
+        className="float-right"
+        danger={false}
+        href=""
+        link={false}
+        onClick={[Function]}
+        primary={true}
+        secondary={false}
+        small={false}
+      >
+        Save
+      </Button>
+      <Button
+        className="float-right mr-3"
+        danger={false}
+        href=""
+        link={false}
+        onClick={[Function]}
+        primary={false}
+        secondary={true}
+        small={false}
+      >
+        Cancel
+      </Button>
+    </div>
+  </div>
+  <ul
+    className="list-group"
+  />
+</div>
+`;
+
+exports[`<ListForm /> should shallow the form filled with list 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="subjectInput"
+        >
+          Subject
+        </label>
+        <input
+          className="form-control"
+          id="subjectInput"
+          name="subject"
+          onChange={[Function]}
+          type="text"
+          value="subject"
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Required
+        </small>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="listedByInput"
+        >
+          Listed By
+        </label>
+        <input
+          className="form-control"
+          id="listedByInput"
+          name="listedBy"
+          onChange={[Function]}
+          type="text"
+          value="listed by"
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Required
+        </small>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="passcodeInput"
+        >
+          Passcode
+        </label>
+        <input
+          className="form-control"
+          id="passcodeInput"
+          name="passcode"
+          onChange={[Function]}
+          type="text"
+          value="passcode"
+        />
+        <small
+          className="form-text text-muted"
+        >
+          Use Passcode to edit or delete this list
+        </small>
+      </div>
+    </div>
+    <div
+      className="col-md"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-control-label"
+          htmlFor="descriptionInput"
+        >
+          Description
+        </label>
+        <textarea
+          className="form-control"
+          id="descriptionInput"
+          name="description"
+          onChange={[Function]}
+          rows="10"
+          value="description"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row my-4"
+  >
+    <div
+      className="col col-md"
+    >
+      <div
+        className="input-group"
+      >
+        <div
+          className="input-group-prepend"
+        >
+          <div
+            className="input-group-text"
+          >
+            Add to List
+          </div>
+        </div>
+        <Connect(FilmSearch)
+          inputClass=""
+          onResultClick={[Function]}
+          placeholder="Enter Film Name..."
+          resultsContainerClass="film-results"
+        />
+      </div>
+    </div>
+    <div
+      className="col-5 col-md"
+    >
+      <Button
+        className="float-right"
+        danger={false}
+        href=""
+        link={false}
+        onClick={[Function]}
+        primary={true}
+        secondary={false}
+        small={false}
+      >
+        Save
+      </Button>
+      <Button
+        className="float-right mr-3"
+        danger={false}
+        href=""
+        link={false}
+        onClick={[Function]}
+        primary={false}
+        secondary={true}
+        small={false}
+      >
+        Cancel
+      </Button>
+    </div>
+  </div>
+  <ul
+    className="list-group"
+  >
+    <li
+      className="list-group-item"
+      key="tt0123456"
+    >
+      <div
+        className="row px-3"
+      >
+        <div
+          className="col-2 col-lg-1 px-1 px-md-2"
+        >
+          <Poster
+            crop={false}
+            poster="poster1.jpg"
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <input
+            className="form-control text-center mr-2 py-1 px-1 mb-1 order-input"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            type="text"
+            value="1"
+          />
+          <h5
+            className="film-title"
+          >
+            <TitleYear
+              title="Film A"
+              year="2000"
+            />
+          </h5>
+          <input
+            className="form-control form-control-sm mt-3"
+            onChange={[Function]}
+            placeholder="Add a Comment"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="col-1"
+        >
+          <button
+            className="close"
+            onClick={[Function]}
+          >
+            <span>
+              ×
+            </span>
+          </button>
+        </div>
+      </div>
+    </li>
+    <li
+      className="list-group-item"
+      key="tt1234567"
+    >
+      <div
+        className="row px-3"
+      >
+        <div
+          className="col-2 col-lg-1 px-1 px-md-2"
+        >
+          <Poster
+            crop={false}
+            poster="poster2.jpg"
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <input
+            className="form-control text-center mr-2 py-1 px-1 mb-1 order-input"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            type="text"
+            value="2"
+          />
+          <h5
+            className="film-title"
+          >
+            <TitleYear
+              title="Film B"
+              year="2010"
+            />
+          </h5>
+          <input
+            className="form-control form-control-sm mt-3"
+            onChange={[Function]}
+            placeholder="Add a Comment"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="col-1"
+        >
+          <button
+            className="close"
+            onClick={[Function]}
+          >
+            <span>
+              ×
+            </span>
+          </button>
+        </div>
+      </div>
+    </li>
+    <li
+      className="list-group-item"
+      key="tt2345678"
+    >
+      <div
+        className="row px-3"
+      >
+        <div
+          className="col-2 col-lg-1 px-1 px-md-2"
+        >
+          <Poster
+            crop={false}
+            poster="poster3.jpg"
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <input
+            className="form-control text-center mr-2 py-1 px-1 mb-1 order-input"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            type="text"
+            value="3"
+          />
+          <h5
+            className="film-title"
+          >
+            <TitleYear
+              title="Film C"
+              year="2015"
+            />
+          </h5>
+          <input
+            className="form-control form-control-sm mt-3"
+            onChange={[Function]}
+            placeholder="Add a Comment"
+            type="text"
+            value="no comment"
+          />
+        </div>
+        <div
+          className="col-1"
+        >
+          <button
+            className="close"
+            onClick={[Function]}
+          >
+            <span>
+              ×
+            </span>
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

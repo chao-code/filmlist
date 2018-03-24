@@ -1,0 +1,82 @@
+.bd-search {
+  position: relative
+}
+
+.bd-search .form-control:focus {
+  background-color: #fff
+}
+
+.bd-search-results {
+  display: block;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  overflow: hidden;
+  font-size: .9rem;
+  width: 19.5em
+}
+
+.bd-search-results .dropdown-item {
+  padding-right: .75rem;
+  padding-left: .75rem;
+  white-space: normal
+}
+
+.bd-search-results .dropdown-item:first-child {
+  margin-top: .5rem
+}
+
+.bd-search-results .dropdown-item:last-child {
+  margin-bottom: .5rem
+}
+
+.bd-search-results .no-results {
+  padding: .75rem 1rem;
+  color: #7a7a7a;
+  text-align: center
+}
+
+.bd-search-loading {
+  background-color: #ffffff;
+  background-image: url("http://loadinggif.com/images/image-selection/2.gif");
+  background-position: 95%;
+  background-repeat: no-repeat
+}
+
+.loading {
+  background-color: #ffffff;
+  background-image: url("http://loadinggif.com/images/image-selection/3.gif");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px
+}
+
+.link, .link:hover {
+  color: black;
+  text-decoration: none
+}
+
+.newline {
+  white-space: pre
+}
+
+.btn {
+  cursor: pointer
+}
+
+.order-input {
+  display: inline-block;
+  width: 2.5em
+}
+
+.film-title {
+  display: inline
+}
+
+.film-results {
+  left: 7em
+}
+
+.cursor-pointer {
+  cursor: pointer
+}

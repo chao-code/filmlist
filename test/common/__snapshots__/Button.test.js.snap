@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render Link 1`] = `
+<Link
+  className="btn"
+  replace={false}
+  to="/path/to"
+>
+  link
+</Link>
+`;
+
+exports[`<Button /> should render button 1`] = `
+<button
+  className="btn"
+  onClick={[Function]}
+>
+  button
+</button>
+`;

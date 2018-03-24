@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Poster /> should render correctly 1`] = `
+<img
+  alt="Poster"
+  className="img-fluid card"
+  src="poster.jpg"
+/>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <div
+    className="container"
+  >
+    <Link
+      className="navbar-brand"
+      replace={false}
+      to="/"
+    >
+      FilmList
+    </Link>
+    <button
+      className="navbar-toggler"
+      data-target="#navbarMenu"
+      data-toggle="collapse"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse justify-content-end"
+      id="navbarMenu"
+    >
+      <form
+        className="form-inline my-2 mr-sm-3 bd-search"
+      >
+        <Connect(FilmSearch)
+          inputClass="form-control-sm"
+          onResultClick={[Function]}
+          placeholder="Search..."
+        />
+      </form>
+      <Button
+        className="my-2 my-md-auto"
+        danger={false}
+        href="/newlist"
+        link={false}
+        primary={true}
+        replace={false}
+        secondary={false}
+        small={true}
+      >
+        Create a List
+      </Button>
+    </div>
+  </div>
+</nav>
+`;

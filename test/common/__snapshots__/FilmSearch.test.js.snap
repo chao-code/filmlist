@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilmSearch /> should render the input 1`] = `
+<FilmSearch
+  inputClass=""
+  keepFocusOnResultClick={false}
+  loadSearch={[Function]}
+  onResultClick={[Function]}
+  placeholder="placeholder"
+  resultsContainerClass=""
+  searchResultsByQuery={
+    Object {
+      "some query": Object {
+        "isFetching": false,
+        "results": Array [
+          Object {
+            "imdbID": "tt1111111",
+            "poster": "img1.jpg",
+            "title": "Movie 1",
+            "year": "2000",
+          },
+          Object {
+            "imdbID": "tt2222222",
+            "poster": "img2.jpg",
+            "title": "Movie 2",
+            "year": "2010",
+          },
+          Object {
+            "imdbID": "tt3333333",
+            "poster": "img3.jpg",
+            "title": "Movie 3",
+            "year": "2012",
+          },
+          Object {
+            "imdbID": "tt4444444",
+            "poster": "img4.jpg",
+            "title": "Movie 4",
+            "year": "2013",
+          },
+        ],
+      },
+    }
+  }
+>
+  <input
+    className="form-control"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="placeholder"
+    type="search"
+    value=""
+  />
+</FilmSearch>
+`;
+
+exports[`<FilmSearch /> should search and render results 1`] = `
+<FilmSearch
+  inputClass=""
+  keepFocusOnResultClick={false}
+  loadSearch={[Function]}
+  onResultClick={[Function]}
+  placeholder="placeholder"
+  resultsContainerClass=""
+  searchResultsByQuery={
+    Object {
+      "some query": Object {
+        "isFetching": false,
+        "results": Array [
+          Object {
+            "imdbID": "tt1111111",
+            "poster": "img1.jpg",
+            "title": "Movie 1",
+            "year": "2000",
+          },
+          Object {
+            "imdbID": "tt2222222",
+            "poster": "img2.jpg",
+            "title": "Movie 2",
+            "year": "2010",
+          },
+          Object {
+            "imdbID": "tt3333333",
+            "poster": "img3.jpg",
+            "title": "Movie 3",
+            "year": "2012",
+          },
+          Object {
+            "imdbID": "tt4444444",
+            "poster": "img4.jpg",
+            "title": "Movie 4",
+            "year": "2013",
+          },
+        ],
+      },
+    }
+  }
+>
+  <input
+    className="form-control"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="placeholder"
+    type="search"
+    value="some query"
+  />
+  <div
+    className="dropdown-menu bd-search-results"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+  >
+    <li
+      className="dropdown-item"
+      key="tt1111111"
+      onClick={[Function]}
+    >
+      <div
+        className="row cursor-pointer"
+      >
+        <div
+          className="col-3"
+        >
+          <Poster
+            crop={false}
+            poster="img1.jpg"
+          >
+            <img
+              alt="Poster"
+              className="img-fluid card"
+              src="img1.jpg"
+            />
+          </Poster>
+        </div>
+        <div
+          className="col"
+        >
+          <TitleYear
+            title="Movie 1"
+            year="2000"
+          >
+            <span>
+              Movie 1
+               
+              <small
+                className="text-muted"
+              >
+                (
+                2000
+                )
+              </small>
+            </span>
+          </TitleYear>
+        </div>
+      </div>
+    </li>
+    <li
+      className="dropdown-item"
+      key="tt2222222"
+      onClick={[Function]}
+    >
+      <div
+        className="row cursor-pointer"
+      >
+        <div
+          className="col-3"
+        >
+          <Poster
+            crop={false}
+            poster="img2.jpg"
+          >
+            <img
+              alt="Poster"
+              className="img-fluid card"
+              src="img2.jpg"
+            />
+          </Poster>
+        </div>
+        <div
+          className="col"
+        >
+          <TitleYear
+            title="Movie 2"
+            year="2010"
+          >
+            <span>
+              Movie 2
+               
+              <small
+                className="text-muted"
+              >
+                (
+                2010
+                )
+              </small>
+            </span>
+          </TitleYear>
+        </div>
+      </div>
+    </li>
+    <li
+      className="dropdown-item"
+      key="tt3333333"
+      onClick={[Function]}
+    >
+      <div
+        className="row cursor-pointer"
+      >
+        <div
+          className="col-3"
+        >
+          <Poster
+            crop={false}
+            poster="img3.jpg"
+          >
+            <img
+              alt="Poster"
+              className="img-fluid card"
+              src="img3.jpg"
+            />
+          </Poster>
+        </div>
+        <div
+          className="col"
+        >
+          <TitleYear
+            title="Movie 3"
+            year="2012"
+          >
+            <span>
+              Movie 3
+               
+              <small
+                className="text-muted"
+              >
+                (
+                2012
+                )
+              </small>
+            </span>
+          </TitleYear>
+        </div>
+      </div>
+    </li>
+    <li
+      className="dropdown-item"
+      key="tt4444444"
+      onClick={[Function]}
+    >
+      <div
+        className="row cursor-pointer"
+      >
+        <div
+          className="col-3"
+        >
+          <Poster
+            crop={false}
+            poster="img4.jpg"
+          >
+            <img
+              alt="Poster"
+              className="img-fluid card"
+              src="img4.jpg"
+            />
+          </Poster>
+        </div>
+        <div
+          className="col"
+        >
+          <TitleYear
+            title="Movie 4"
+            year="2013"
+          >
+            <span>
+              Movie 4
+               
+              <small
+                className="text-muted"
+              >
+                (
+                2013
+                )
+              </small>
+            </span>
+          </TitleYear>
+        </div>
+      </div>
+    </li>
+  </div>
+</FilmSearch>
+`;

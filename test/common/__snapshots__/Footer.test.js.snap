@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render correctly 1`] = `
+<footer
+  className="container"
+>
+  <hr />
+  <p
+    className="text-center my-3"
+  >
+    <small>
+      © 2018. Powered by 
+      <span
+        aria-label="Poop"
+        role="img"
+      >
+        💩💩
+      </span>
+    </small>
+  </p>
+</footer>
+`;
