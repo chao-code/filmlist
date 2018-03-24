@@ -124,6 +124,10 @@ class List extends Component {
     $('#modal').modal('show')
   }
 
+  focusCheckPasscodeInput = () => {
+    this.checkPasscodeInput.focus()
+  }
+
   checkPasscode = () => {
     if (this.checkPasscodeInput.value === this.props.list.passcode) {
       $('#modal').modal('hide')
@@ -285,7 +289,12 @@ class List extends Component {
   renderCheckPasscode() {
     const { invalid, text, confirm, action } = this.state.modal
     return (
-      <div className="modal fade" id="modal" tabIndex="-1">
+      <div
+        className="modal fade"
+        id="modal"
+        tabIndex="-1"
+        onFocus={this.focusCheckPasscodeInput}
+      >
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
