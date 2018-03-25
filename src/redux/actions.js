@@ -325,13 +325,9 @@ export const removeListAndInvalidateLists = listID => (dispatch, getState) => {
 export const editListAndInvalidateLists = (listID, edits) => dispatch => {
   const { films, removedFilms } = edits
   const filmIDs = films.map(film => film.imdbID)
-  Object.keys(removedFilms).forEach(filmID => {
-    if (removedFilms[filmID]) {
-      filmIDs.push(filmID)
-    }
-  })
+  const removedFilmIDs = Object.keys(removedFilms).filter(filmID => removedFilms[filmID])
   return (
     dispatch(editList(listID, edits))
-    .then(() => dispatch(invalidateLists(filmIDs)))
+    .then(() => dispatch(invalidateLists([...filmIDs, ...removedFilmIDs])))
   )
 }
