@@ -2,21 +2,21 @@ import fetchMock from 'fetch-mock'
 import { getPopularFilms, getFilmDetail, searchFilms } from '../../src/api/filmAPI'
 
 describe('film API', () => {
-  const api = '//bernoulli-io.herokuapp.com/api'
+  const api = '//film-info.herokuapp.com/api/v1'
 
   afterEach(fetchMock.restore)
 
   it('should fetch popular films', () => {
-    const url = `${api}/movies`
+    const url = `${api}/films/`
 
-    fetchMock.once(url, { mostPopular: [{ title: 'some film' }] })
+    fetchMock.once(url, [{ title: 'some film' }])
 
     return expect(getPopularFilms()).resolves.toEqual([{ title: 'some film' }])
   })
 
   it('should get film detail', () => {
     const filmID = '12345'
-    const url = `${api}/movies/${filmID}`
+    const url = `${api}/films/${filmID}`
 
     fetchMock.once(url, {
       Actors: 'actor1, actor2',
@@ -68,7 +68,7 @@ describe('film API', () => {
 
   it('should search films by title', () => {
     const title = 'some film'
-    const url = `${api}/search?title=${title}`
+    const url = `${api}/films/search?title=${title}`
 
     fetchMock.once(url, {
       Response: 'True',
